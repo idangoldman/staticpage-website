@@ -1,0 +1,18 @@
+{
+  "name": "staticpage-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Idan Goldman <idan@goldman.work>",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:idan.goldman/staticpage-web.git"
+  },
+  "scripts": {
+    "kit:reinstall": "yarn remove kit; yarn add --dev \"git+ssh://git@gitlab.com:idan.goldman/kit.git#master\""
+  },
+  "devDependencies": {
+    "kit": "git+ssh://git@gitlab.com:idan.goldman/kit.git#master"
+  }
+}

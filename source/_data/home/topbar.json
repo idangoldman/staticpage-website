@@ -1,0 +1,10 @@
+{
+  "login": {
+    "url": "/login",
+    "text": "Login"
+  },
+  "register": {
+    "url": "/register",
+    "text": "Register"
+  }
+}

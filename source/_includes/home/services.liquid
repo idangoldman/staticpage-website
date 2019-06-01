@@ -1,0 +1,11 @@
+<div id="services" class="row">
+  {% for service in page.content.services %}
+    <div class="xsmall-12 small-6 large-4 column">
+      <h2 class="title">{{ service.title }}</h2>
+      <p class="paragraph">{{ service.paragraph }}</p>
+      <a href="{{ service.link.url }}" class="btn-primary">
+        {{ service.link.text }}
+      </a>
+    </div>
+  {% endfor %}
+</div>

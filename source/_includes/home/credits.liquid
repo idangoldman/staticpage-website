@@ -1,0 +1,14 @@
+<div id="credits" class="row">
+  <div class="xsmall-10 medium-6 column">
+    <h2 class="title">
+      {{ page.content.credits.title }}
+    </h2>
+    {{ page.content.credits.paragraph | markdown }}
+    {% for credit in page.content.credits.kudos %}
+      <div class="credit">
+        <h3 class="title">{{ credit.name }}</h3>
+        <p class="paragraph">{{ credit.paragraph }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<div id="bulletins" class="row">
+  {% for bulletin in page.content.bulletins %}
+    <div class="bulletin xsmall-12 small-6 medium-3 column">
+      {% include 'bulletins/' + bulletin.image + '.svg' %}
+      <p class="paragraph">{{ bulletin.paragraph }}</p>
+    </div>
+  {% endfor %}
+</div>
