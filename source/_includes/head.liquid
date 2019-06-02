@@ -3,9 +3,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% seo %}
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   {% favicon %}
-  {% feed_meta %}
+
+  {% comment %}
+    {% feed_meta %}
+  {% endcomment %}
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' }}" />
 
   {% if site.ENV == "production" and site.GA_ID %}
     {% include 3rd_party/google_analytics.liquid id=site.GA_ID %}

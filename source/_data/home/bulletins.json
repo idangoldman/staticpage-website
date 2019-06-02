@@ -1,17 +1,17 @@
 [{
   "name": "pantone",
-  "image": "/images/bulletins/pantone.svg",
+  "image": "/assets/images/bulletins/pantone.svg",
   "paragraph": "The perfect fit for creating great looking static pages."
 }, {
   "name": "blueprints",
-  "image": "/images/bulletins/blueprints.svg",
+  "image": "/assets/images/bulletins/blueprints.svg",
   "paragraph": "Most importantly, it keeps things simple."
 }, {
   "name": "console",
-  "image": "/images/bulletins/console.svg",
+  "image": "/assets/images/bulletins/console.svg",
   "paragraph": "Developed as a user friendly tool with high quality results."
 }, {
   "name": "letter",
-  "image": "/images/bulletins/letter.svg",
+  "image": "/assets/images/bulletins/letter.svg",
   "paragraph": "To try it all just click the registration button."
 }]

@@ -1,5 +1,5 @@
-// Google fonts
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,500');
+---
+---
 
 // Locals
 $base-background-color: #f7f7f7;
@@ -10,7 +10,10 @@ $base-font-family: Roboto, serif;
 $header-font-family: 'Roboto Slab', sans-serif;
 
 // Kit
-@import "node_modules/kit/src/index";
+@import "kit/src/index";
+
+// Google fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,500');
 
 // Code
 .container {
@@ -78,7 +81,7 @@ p, .paragraph {
   margin-bottom: 60px;
 
   .bulletin {
-    svg {
+    img {
       margin-bottom: 20px;
       max-width: 160px;
     }
@@ -88,7 +91,7 @@ p, .paragraph {
     }
 
     @include media-query('medium', 'max') {
-      svg {
+      img {
         max-width: 120px;
       }
     }
@@ -112,8 +115,9 @@ p, .paragraph {
     margin-bottom: 60px;
   }
 
-  svg {
-    margin-bottom: 20px;
+  img {
+    display: block;
+    margin: 0 auto 20px;
   }
 }
 

@@ -4,7 +4,7 @@ title: Welcome to StaticPage!
 description: Create your own Coming Soon, Under Maintenance, and 404 pages.
 author: Idan Goldman, chief of stuff.
 email: root@staticpage.io
-url: "https://staticpage.io"
+url: "/"
 baseurl: ""
 
 # Build settings
@@ -15,6 +15,12 @@ timezone: Asia/Jerusalem
 markdown: kramdown
 host: staticpage.web
 port: 1234
+
+# SCSS
+sass:
+  style: compressed
+  load_paths:
+    - ../node_modules
 
 # theme: minima
 plugins:
@@ -29,7 +35,7 @@ plugins:
   - jekyll-sitemap
 
 favicon:
-  source: images/favicon.svg
+  source: assets/images/favicon.png
   path: /images/favicon
   safari-pinned-tab:
     mask-icon-color: "#2ea52c"

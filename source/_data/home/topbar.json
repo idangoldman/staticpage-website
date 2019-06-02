@@ -1,5 +1,5 @@
 {
-  "logo": "/images/logo.svg",
+  "logo": "/assets/images/logo.svg",
   "login": {
     "url": "/login",
     "text": "Login"
