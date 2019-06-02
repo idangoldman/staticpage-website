@@ -42,3 +42,5 @@ gem "rake", "~> 12.3"
 gem "public_suffix", "~> 3.1"
 
 gem "turbolinks", "~> 5.2"
+
+gem "dotenv", "~> 2.7"

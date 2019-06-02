@@ -7,7 +7,7 @@ task "kit:reinstall" do
 end
 
 task "assets:precompile" do
-  exec("JEKYLL_ENV=production bundle exec jekyll build")
+  exec("JEKYLL_ENV=production bundle exec jekyll build --incremental")
 end
 
 task "clean" do
@@ -15,7 +15,7 @@ task "clean" do
 end
 
 task "watch" do
-  exec("bundle exec jekyll serve --watch")
+  exec("bundle exec jekyll serve --watch --incremental")
 end
 
 task "serv" do

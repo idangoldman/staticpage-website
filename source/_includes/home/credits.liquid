@@ -3,7 +3,9 @@
     <h2 class="title">
       {{ include.content.title }}
     </h2>
-    {{ include.content.paragraph | markdown }}
+
+    {{ include.content.paragraph | markdownify }}
+
     {% for kudo in include.content.kudos %}
       <div class="credit">
         <h3 class="title">{{ kudo.name }}</h3>

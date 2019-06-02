@@ -1,4 +1,4 @@
-<form action="https://{{ include.details.url }}/subscribe/post?u={{ include.details.user_id }}&amp;id={{ include.details.list_id }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="row validate" target="_blank" novalidate>
+<form action="https://{{ include.details.FORM_URL }}/subscribe/post?u={{ include.details.USER_ID }}&amp;id={{ include.details.LIST_ID }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="row validate" target="_blank" novalidate>
   <div class="xsmall-12 small-9 column">
     <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="{{ include.content.placeholder }}">
   </div>
@@ -12,7 +12,7 @@
     </div>
   </div>
   <div class="dead-pixel" aria-hidden="true">
-    <input type="text" name="{{ include.details.antispam_field_name }}" tabindex="-1" value="">
+    <input type="text" name="{{ include.details.ANTISPAM_FIELD_NAME }}" tabindex="-1" value="">
   </div>
 </form>
 
