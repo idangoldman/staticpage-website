@@ -1,5 +1,6 @@
 {
   "title": "About the Creator.",
-  "image": "avatar",
+  "image": "/images/avatar.svg",
+  "author": "Idan Goldman",
   "paragraph": "Idan Goldman, a Frontend Developer with 10+ years of experience under my belt. Decided to quit my job and follow the dream of building a product company. What a better way to do so than using my frontend expertise to develop a page builder. One that saves time, easy to use, and most importantly gives you control of the source code. You can follow me and my journey on Twitter at [@idan_goldman](https://twitter.com/idan_goldman) or subscribe to StaticPage’s mailing list and get updated on the latest features and growth."
 }

@@ -1,15 +1,23 @@
+task "install" do
+  exec("bundle install; yarn install")
+end
+
+task "kit:reinstall" do
+  exec("yarn kit:reinstall")
+end
+
 task "assets:precompile" do
   exec("JEKYLL_ENV=production bundle exec jekyll build")
 end
 
+task "clean" do
+  exec("bundle exec jekyll clean; bundle exec jekyll doctor")
+end
+
 task "watch" do
-  exec("JEKYLL_ENV=development bundle exec jekyll serve --watch")
+  exec("bundle exec jekyll serve --watch")
 end
 
 task "serv" do
-  exec("JEKYLL_ENV=development bundle exec jekyll serve --trace")
-end
-
-task "install" do
-  exec(" bundle install")
+  exec("bundle exec jekyll serve --trace")
 end

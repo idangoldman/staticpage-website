@@ -1,10 +1,10 @@
 <div id="services" class="row">
-  {% for service in page.content.services %}
+  {% for item in include.content %}
     <div class="xsmall-12 small-6 large-4 column">
-      <h2 class="title">{{ service.title }}</h2>
-      <p class="paragraph">{{ service.paragraph }}</p>
-      <a href="{{ service.link.url }}" class="btn-primary">
-        {{ service.link.text }}
+      <h2 class="title">{{ item.title }}</h2>
+      <p class="paragraph">{{ item.paragraph }}</p>
+      <a href="{{ item.link.url }}" class="btn-primary">
+        {{ item.link.text }}
       </a>
     </div>
   {% endfor %}

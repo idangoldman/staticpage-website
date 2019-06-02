@@ -1,9 +1,13 @@
 <div id="about" class="row">
   <div class="xsmall-10 large-8 column">
+
     <h2 class="title">
-      {{ page.content.about.title }}
+      {{ include.content.title }}
     </h2>
-    {% include page.content.about.image + '.svg' %}
-    {{ page.content.about.paragraph | markdown }}
+
+    <img src="{{ include.content.image }}" alt="{{ include.content.author }}">
+
+    {{ include.content.paragraph }}
+
   </div>
 </div>

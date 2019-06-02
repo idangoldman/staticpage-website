@@ -1,4 +1,5 @@
 # General
+name: StaticPage
 title: Welcome to StaticPage!
 description: Create your own Coming Soon, Under Maintenance, and 404 pages.
 author: Idan Goldman, chief of stuff.
@@ -9,6 +10,7 @@ baseurl: ""
 # Build settings
 source: ./source
 destination: ./public
+exclude: ['images/favicon']
 timezone: Asia/Jerusalem
 markdown: kramdown
 host: staticpage.web
@@ -26,5 +28,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Misc
-google_analytics_id: 1234
+favicon:
+  source: images/favicon.svg
+  path: /images/favicon
+  safari-pinned-tab:
+    mask-icon-color: "#2ea52c"
+  ie:
+    tile-color: "#2ea52c"

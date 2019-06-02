@@ -1,0 +1,9 @@
+<div id="mailing-list" class="row">
+  <div class="xsmall-10 large-8 column">
+    <h2 class="title">
+      {{ include.content.title }}
+    </h2>
+
+    {% include 3rd_party/mailchimp.liquid content=include.content details=include.provider %}
+  </div>
+</div>

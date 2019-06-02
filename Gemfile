@@ -40,3 +40,5 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem "rake", "~> 12.3"
 
 gem "public_suffix", "~> 3.1"
+
+gem "turbolinks", "~> 5.2"

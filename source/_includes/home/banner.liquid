@@ -1,8 +1,8 @@
 <div id="banner" class="row">
   <div class="twelve column">
     <h1 class="title">
-      {{ page.content.header.title }}
+      {{ page.title }}
     </h1>
-    {{ page.content.header.paragraph | markdown }}
+    {{ page.description | markdownify }}
   </div>
 </div>
