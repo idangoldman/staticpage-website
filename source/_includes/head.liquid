@@ -9,7 +9,11 @@
     {% feed_meta %}
   {% endcomment %}
 
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' }}" />
+  {% if page.stylesheet %}
+    <link rel="stylesheet" href="{{ page.stylesheet }}" />
+  {% else %}
+    <link rel="stylesheet" href="{{ '/assets/css/default.css' }}" />
+  {% endif %}
 
   {% if site.ENV == "production" and site.GA_ID %}
     {% include 3rd_party/google_analytics.liquid id=site.GA_ID %}

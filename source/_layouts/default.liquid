@@ -1,11 +1,14 @@
----
----
-
 <!doctype html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.liquid %}
 <body>
 
+  <!-- Topbar -->
+  {% include topbar.liquid content=site.data.topbar %}
+
   {{ content }}
+
+  <!-- Footer -->
+  {% include footer.liquid %}
 
 </body></html>

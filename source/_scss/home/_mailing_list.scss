@@ -1,0 +1,25 @@
+#mailing-list {
+  margin-bottom: 80px;
+
+  form.row {
+    margin: 0;
+
+    .column > * {
+      margin-bottom: 10px;
+    }
+  }
+
+  .email {
+    border-radius: $border-radius;
+    border: 1px solid rgba($base-color, 0.2);
+    font-size: 14px;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 10px;
+    width: 100%;
+
+    &:focus {
+      border-color: $base-color;
+    }
+  }
+}

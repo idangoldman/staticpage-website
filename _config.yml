@@ -4,8 +4,13 @@ title: Welcome to StaticPage!
 description: Create your own Coming Soon, Under Maintenance, and 404 pages.
 author: Idan Goldman, chief of stuff.
 email: root@staticpage.io
-url: "/"
+footer: "**StaticPage** built with **love** out of an apartment somewhere in **Tel Aviv**."
+
+# Permalinks
+url: "https://staticpage.io"
 baseurl: ""
+host: staticpage.web
+port: 1234
 
 # Build settings
 source: ./source
@@ -13,12 +18,11 @@ destination: ./public
 exclude: ['images/favicon']
 timezone: Asia/Jerusalem
 markdown: kramdown
-host: staticpage.web
-port: 1234
 
-# SCSS
+# SASS
 sass:
   style: compressed
+  sass_dir: _scss
   load_paths:
     - ../node_modules
 

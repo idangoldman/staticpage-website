@@ -1,0 +1,21 @@
+<section id="topbar" class="container">
+  <div class="xsmall-direction-column small-direction-row row">
+    <div class="text-left small-6 large-4 column">
+      <a href="{{ site.url }}">
+        <img src="{{ include.content.logo }}" alt="{{ site.name }}">
+      </a>
+    </div>
+
+    <div class="auto-left small-2 large-1 column">
+      <a href="{{ include.content.login.url }}" class="btn-link">
+        {{ include.content.login.text }}
+      </a>
+    </div>
+
+    <div class="small-3 large-2 column">
+      <a href="{{ include.content.register.url }}" class="btn-primary">
+        {{ include.content.register.text }}
+      </a>
+    </div>
+  </div>
+</section>
