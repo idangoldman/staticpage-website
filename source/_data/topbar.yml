@@ -1,0 +1,7 @@
+logo: /assets/images/logo.svg
+login:
+  url: /login
+  text: Login
+register:
+  url: /register
+  text: Register

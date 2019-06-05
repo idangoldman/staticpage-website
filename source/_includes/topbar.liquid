@@ -1,8 +1,8 @@
 <section id="topbar" class="container">
-  <div class="xsmall-direction-column small-direction-row row">
+  <div class="xsmall-direction-column is-aligned-items-center small-direction-row row">
     <div class="text-left small-6 large-4 column">
-      <a href="{{ site.url }}">
-        <img src="{{ include.content.logo }}" alt="{{ site.name }}">
+      <a href="{{ site.url }}" class="logo">
+        {% svg "{{ include.content.logo }}" %}
       </a>
     </div>
 

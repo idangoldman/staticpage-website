@@ -37,6 +37,7 @@ plugins:
   - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-inline-svg
 
 favicon:
   source: assets/images/favicon.png
@@ -45,3 +46,6 @@ favicon:
     mask-icon-color: "#2ea52c"
   ie:
     tile-color: "#2ea52c"
+
+svg:
+  optimize: true

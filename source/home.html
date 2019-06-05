@@ -2,32 +2,20 @@
   layout: default
   permalink: /
   stylesheet: /assets/css/home.css
-
-  title: Welcome to StaticPage!
-  description: "Create your own **Coming Soon**, **Under Maintenance**, and **404** pages."
 ---
 
 <section id="home" class="container">
 
   <!-- Banner -->
-  {% include /home/banner.liquid %}
-
-  <!-- Bulletins -->
-  <!-- {% include /home/bulletins.liquid content=site.data.home.bulletins %} -->
+  {% include /home/banner.liquid content=site.data.home.banner %}
 
   <!-- Walkthrough -->
   {% include /home/walkthrough.liquid content=site.data.home.walkthrough %}
 
-  <!-- Services -->
-  <!-- {% include /home/services.liquid content=site.data.home.services %} -->
-
-  <!-- About -->
-  <!-- {% include /home/about.liquid content=site.data.home.about %} -->
+  <!-- Credits -->
+  {% include /home/credits.liquid content=site.data.home.credits %}
 
   <!-- Mailing List -->
   {% include /home/mailing_list.liquid content=site.data.home.mailing_list provider=site.MAILCHIMP %}
-
-  <!-- Credits -->
-  {% include /home/credits.liquid content=site.data.home.credits %}
 
 </section>

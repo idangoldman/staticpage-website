@@ -44,3 +44,5 @@ gem "public_suffix", "~> 3.1"
 gem "turbolinks", "~> 5.2"
 
 gem "dotenv", "~> 2.7"
+
+gem "jekyll-inline-svg", "~> 1.1"

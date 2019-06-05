@@ -1,8 +1,14 @@
 <div id="banner" class="row">
   <div class="twelve column">
     <h1 class="title">
-      {{ page.title }}
+      {{ include.content.title }}
     </h1>
-    {{ page.description | markdownify }}
+    {{ include.content.description | markdownify }}
+  </div>
+
+  <div class="twelve column">
+    <div class="illustration">
+      {% svg "{{ include.content.illustration }}" %}
+    </div>
   </div>
 </div>

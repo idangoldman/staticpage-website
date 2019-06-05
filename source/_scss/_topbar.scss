@@ -1,9 +1,13 @@
 #topbar {
-  @extend .is-aligned-items-center;
-
   @include media-query('small', 'max') {
     .column { text-align: center;}
     .column > * { margin-bottom: 10px; }
     .column:last-child > * { margin-bottom: 0; }
+  }
+
+  .logo {
+    display: block;
+    font-size: 0;
+    line-height: 0;
   }
 }

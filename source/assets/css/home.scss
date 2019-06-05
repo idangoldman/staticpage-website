@@ -8,9 +8,8 @@
 @import "footer";
 
 // Page Imports
-@import "home/banner";
-@import "home/bulletins";
-@import "home/services";
-@import "home/about";
-@import "home/mailing_list";
-@import "home/credits";
+#home {
+  @import "home/banner";
+  @import "home/credits";
+  @import "home/mailing_list";
+}
