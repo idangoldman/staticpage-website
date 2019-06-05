@@ -1,7 +1,9 @@
 {
   "name": "staticpage-blog",
   "version": "1.0.0",
-  "main": "index.js",
+  "engines": {
+    "node": "10.16.0"
+  },
   "author": "Idan Goldman <idan@goldman.work>",
   "license": "UNLICENSED",
   "private": true,
@@ -10,9 +12,9 @@
     "url": "git@gitlab.com:idan.goldman/staticpage-web.git"
   },
   "scripts": {
-    "kit:reinstall": "yarn remove kit; yarn add --dev \"git+ssh://git@gitlab.com:idan.goldman/kit.git#master\""
+    "kit:reinstall": "yarn remove kit; yarn add --dev \"git+ssh://git@gitlab.com:idan.goldman/kit.git#staticpage-web-changes\""
   },
   "devDependencies": {
-    "kit": "git+ssh://git@gitlab.com:idan.goldman/kit.git#master"
+    "kit": "git+ssh://git@gitlab.com:idan.goldman/kit.git#staticpage-web-changes"
   }
 }

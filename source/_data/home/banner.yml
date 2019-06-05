@@ -1,3 +1,9 @@
 title: Welcome to StaticPage!
 description: "Create your own **Coming Soon**, **Under Maintenance**, and **404** pages."
 illustration: /assets/images/illustrations/home.svg
+menu:
+  - url: /login
+    text: Login
+  - url: /register
+    text: Register
+    primary: true

@@ -1,14 +1,26 @@
 <div id="banner" class="row">
-  <div class="twelve column">
+  <header class="header twelve column">
     <h1 class="title">
       {{ include.content.title }}
     </h1>
     {{ include.content.description | markdownify }}
-  </div>
+  </header>
 
-  <div class="twelve column">
-    <div class="illustration">
-      {% svg "{{ include.content.illustration }}" %}
-    </div>
+  <nav class="menu twelve column">
+    {% for link in include.content.menu %}
+      {% unless link.primary %}
+        {% assign link_class = "btn-link" %}
+      {% else %}
+        {% assign link_class = "btn-primary" %}
+      {% endunless %}
+
+      <a href="{{ link.url }}" class="{{ link_class }}">
+        {{ link.text }}
+      </a>
+    {% endfor %}
+  </nav>
+
+  <div class="illustration">
+    {% svg "{{ include.content.illustration }}" %}
   </div>
 </div>

@@ -20,12 +20,6 @@ $header-font-family: 'Roboto Slab', sans-serif;
   .row {
     @extend .with-space-around;
     @extend .text-center;
-
-    margin-bottom: 90px;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
   }
 }
 
@@ -33,10 +27,6 @@ $header-font-family: 'Roboto Slab', sans-serif;
   @extend .h1;
 
   margin-bottom: 20px;
-}
-
-[class*="btn-"] {
-  max-width: 160px;
 }
 
 a {

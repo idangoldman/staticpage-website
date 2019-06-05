@@ -1,8 +1,8 @@
 #topbar {
   @include media-query('small', 'max') {
-    .column { text-align: center;}
-    .column > * { margin-bottom: 10px; }
-    .column:last-child > * { margin-bottom: 0; }
+    .column:first-child {
+      margin-bottom: 20px;
+    }
   }
 
   .logo {

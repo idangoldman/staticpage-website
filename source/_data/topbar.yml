@@ -1,7 +1,8 @@
 logo: /assets/images/logo.svg
-login:
-  url: /login
-  text: Login
-register:
-  url: /register
-  text: Register
+menu:
+  - url: /blog
+    text: Blog
+  - url: /docs
+    text: Docs
+  - url: /support
+    text: Support
