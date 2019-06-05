@@ -1,15 +1,12 @@
 ---
 ---
 
+// General
 @import "general";
 
-// General Imports
+// Layout
 @import "topbar";
 @import "footer";
 
-// Page Imports
-#home {
-  @import "home/banner";
-  @import "home/credits";
-  @import "home/mailing_list";
-}
+// Page
+@import "home/_index";

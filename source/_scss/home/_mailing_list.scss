@@ -1,11 +1,12 @@
 #mailing-list {
-  margin-bottom: 80px;
-
   form.row {
     margin: 0;
 
-    .column > * {
-      margin-bottom: 10px;
+    @include media-query('small', 'max') {
+      .column > * {
+        margin-bottom: 10px;
+        &:last-child { margin-bottom: 0; }
+      }
     }
   }
 

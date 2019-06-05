@@ -1,0 +1,9 @@
+#home {
+  @import "home/banner";
+  @import "home/credits";
+  @import "home/mailing_list";
+
+  #walkthrough, #credits, #mailing-list {
+    margin-top: 90px;
+  }
+}

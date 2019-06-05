@@ -3,7 +3,9 @@
     <h1 class="title">
       {{ include.content.title }}
     </h1>
-    {{ include.content.description | markdownify }}
+    <p class="paragraph">
+      {{ include.content.description }}
+    </p>
   </header>
 
   <nav class="menu twelve column">

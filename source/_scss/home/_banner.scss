@@ -22,8 +22,8 @@
     }
   }
 
-  .menu {
-    @include media-query('medium', 'max') {
+  @include media-query('medium', 'max') {
+    .menu {
       margin-bottom: 20px;
     }
   }

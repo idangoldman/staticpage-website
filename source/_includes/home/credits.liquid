@@ -8,8 +8,10 @@
 
     {% for kudo in include.content.kudos %}
       <div class="credit">
-        <h3 class="title">{{ kudo.name }}</h3>
-        <p class="paragraph">{{ kudo.paragraph }}</p>
+        <h3 class="title">
+          <a href="{{ kudo.link }}" target="_blank">{{ kudo.name }}</a>
+        </h3>
+        <p class="paragraph">{{ kudo.description }}</p>
       </div>
     {% endfor %}
   </div>

@@ -1,7 +1,19 @@
 <footer id="footer" class="container">
   <div class="row">
+
+    <div class="twelve column">
+      <nav class="menu">
+        {% for link in site.data.topbar.menu %}
+        <a href="{{ link.url }}" class="btn-link">
+          {{ link.text }}
+        </a>
+        {% endfor %}
+      </nav>
+    </div>
+
     <div class="twelve column">
       {{ site.footer | markdownify }}
     </div>
+
   </div>
 </footer>

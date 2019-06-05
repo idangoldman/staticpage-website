@@ -1,3 +1,11 @@
 #footer {
-  font-family: $header-font-family;
+  margin-top: 90px;
+
+  .menu {
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-family: $header-font-family;
+  }
 }
