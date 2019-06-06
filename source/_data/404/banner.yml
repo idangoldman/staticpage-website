@@ -1,0 +1,7 @@
+title: Page not found.
+description: Oops this is awkward... The page your are looking for have retired.
+illustration: /assets/images/illustrations/404.svg
+menu:
+  - url: /
+    text: Return to Homepage
+    primary: true

@@ -22,10 +22,8 @@
     }
   }
 
-  @include media-query('medium', 'max') {
-    .menu {
-      margin-bottom: 20px;
-    }
+  .menu {
+    margin-bottom: 20px;
   }
 
   .illustration {

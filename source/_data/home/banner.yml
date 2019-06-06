@@ -2,8 +2,8 @@ title: Welcome to StaticPage!
 description: Create your own Coming Soon, Under Maintenance, and 404 pages.
 illustration: /assets/images/illustrations/home.svg
 menu:
-  - url: /login
+  - url: https://app.staticpage.io/login
     text: Login
-  - url: /register
+  - url: https://app.staticpage.io/register
     text: Register
     primary: true

@@ -1,12 +1,11 @@
 ---
-layout: default
+  layout: default
+  stylesheet: /assets/css/default.css
 ---
 
-<section id="404" class="container">
-  <h1 class="title">404</h1>
+<section id="error" class="container">
 
-  <p class="paragraph">
-    <strong>Page not found :(</strong>
-    The requested page could not be found.
-  </p>
+  <!-- Banner -->
+  {% include banner.liquid content=site.data.404.banner %}
+
 </section>
