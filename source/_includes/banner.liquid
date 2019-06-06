@@ -6,21 +6,25 @@
     <p class="paragraph">{{ include.content.description }}</p>
   </header>
 
-  <nav class="menu twelve column">
-    {% for link in include.content.menu %}
-      {% unless link.primary %}
-        {% assign link_class = "btn-link" %}
-      {% else %}
-        {% assign link_class = "btn-primary" %}
-      {% endunless %}
+  {% if include.content.menu %}
+    <nav class="menu twelve column">
+      {% for link in include.content.menu %}
+        {% unless link.primary %}
+          {% assign link_class = "btn-link" %}
+        {% else %}
+          {% assign link_class = "btn-primary" %}
+        {% endunless %}
 
-      <a href="{{ link.url }}" class="{{ link_class }}">
-        {{ link.text }}
-      </a>
-    {% endfor %}
-  </nav>
+        <a href="{{ link.url }}" class="{{ link_class }}">
+          {{ link.text }}
+        </a>
+      {% endfor %}
+    </nav>
+  {% endif %}
 
-  <div class="illustration">
-    {% svg "{{ include.content.illustration }}" %}
-  </div>
+  {% if include.content.illustration %}
+    <div class="illustration">
+      {% svg "{{ include.content.illustration }}" %}
+    </div>
+  {% endif %}
 </div>

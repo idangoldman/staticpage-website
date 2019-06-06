@@ -2,8 +2,8 @@ logo: /assets/images/logo.svg
 menu:
   - url: /blog
     text: Blog
-  - url: /docs
-    text: Docs
+    # - url: /docs
+    #   text: Docs
   - url: /pricing
     text: Pricing
   - url: /support
