@@ -2,10 +2,15 @@
   form.row {
     margin: 0;
 
-    @include media-query('small', 'max') {
-      .column > * {
-        margin-bottom: 10px;
-        &:last-child { margin-bottom: 0; }
+    .column {
+      .btn-primary {
+        padding: 0;
+      }
+
+      @include media-query('small', 'max') {
+        input {
+          margin-bottom: 10px;
+        }
       }
     }
   }

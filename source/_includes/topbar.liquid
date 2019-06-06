@@ -1,13 +1,13 @@
 <section id="topbar" class="container">
   <div class="is-aligned-items-center row">
 
-    <div class="xsmall:text-center medium:text-left small-6 large-4 column">
+    <div class="xsmall:text-center medium:text-left medium-6 large-4 column">
       <a href="{{ site.url }}" class="logo">
         {% svg "{{ include.content.logo }}" %}
       </a>
     </div>
 
-    <div class="xsmall:text-center medium:text-right small-6 large-8 column">
+    <div class="xsmall:text-center medium:text-right medium-6 large-8 column">
       <nav class="menu">
         {% for link in include.content.menu %}
         <a href="{{ link.url }}" class="btn-link">

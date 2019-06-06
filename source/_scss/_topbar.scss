@@ -1,5 +1,5 @@
 #topbar {
-  @include media-query('small', 'max') {
+  @include media-query('medium', 'max') {
     .column:first-child {
       margin-bottom: 20px;
     }

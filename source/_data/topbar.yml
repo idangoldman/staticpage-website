@@ -4,5 +4,7 @@ menu:
     text: Blog
   - url: /docs
     text: Docs
+  - url: /pricing
+    text: Pricing
   - url: /support
     text: Support
