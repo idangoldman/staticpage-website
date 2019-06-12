@@ -15,5 +15,5 @@ task "clean" do
 end
 
 task "serve" do
-  exec("bundle exec jekyll serve --livereload --watch --trace")
+  exec("bundle exec jekyll serve --watch --trace")
 end

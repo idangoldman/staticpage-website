@@ -1,18 +1,23 @@
 <div id="credits" class="row">
   <div class="xsmall-10 medium-6 column">
+
     <h2 class="title">
       {{ include.content.title }}
     </h2>
 
     {{ include.content.paragraph | markdownify }}
 
-    {% for kudo in include.content.kudos %}
-      <div class="credit">
-        <h3 class="title">
-          <a href="{{ kudo.link }}" target="_blank">{{ kudo.name }}</a>
-        </h3>
-        <p class="paragraph">{{ kudo.description }}</p>
-      </div>
-    {% endfor %}
+    <dl class="closing-credits">
+      {% for closing_credit in include.content.closing_credits %}
+
+        <dt class="title">
+          <a href="{{ closing_credit.link }}" target="_blank">{{ closing_credit.name }}</a>
+        </dt>
+
+        <dd class="paragraph">{{ closing_credit.description }}</dd>
+
+      {% endfor %}
+    </dl>
+
   </div>
 </div>

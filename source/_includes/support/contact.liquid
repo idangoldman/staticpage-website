@@ -1,0 +1,35 @@
+<div id="contact">
+
+  <div class="row">
+    <div class="twelve column">
+
+      <h2 class="title">
+        {{ include.content.title }}
+      </h2>
+
+    </div>
+  </div>
+
+  <div class="row">
+    {% for channel in include.content.channels %}
+      <dl class="channel xsmall-12 small-4 column">
+
+        <dt class="title">
+          {{ channel[0] }}
+        </dt>
+
+        {% for link in channel[1] %}
+          <dd class="link">
+            {% if link contains "@" %}
+              <a href="mailto:{{ link }}" target="_blank">@{{ link | split: "@" | first }}</a>
+            {% else %}
+              <a href="{{ link }}" target="_blank">@{{ link | split: "/" | last }}</a>
+            {% endif %}
+          </dd>
+        {% endfor %}
+
+      </dl>
+    {% endfor %}
+  </div>
+
+</div>

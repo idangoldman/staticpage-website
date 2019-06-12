@@ -14,14 +14,14 @@
       </div>
 
       <div class="twelve column">
-        {{ site.footer.fine_print | markdownify }}
+        {{ site.data.footer.fine_print | markdownify }}
       </div>
 
     </div>
   </div>
 
   <div class="illustration">
-    {% svg "{{ site.footer.illustration }}" %}
+    {% svg "{{ site.data.footer.illustration }}" %}
   </div>
 
 </footer>
