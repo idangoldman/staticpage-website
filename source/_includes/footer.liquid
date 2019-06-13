@@ -8,7 +8,7 @@
       </div>
 
       <div class="twelve column">
-        {{ site.data.footer.fine_print | markdownify }}
+        {{ site.data.footer.fine_print | markdownify | replace: '<p>', '<p class="paragraph">' }}
       </div>
 
     </div>

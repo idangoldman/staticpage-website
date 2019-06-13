@@ -1,0 +1,15 @@
+---
+  layout: default
+  permalink: /blog
+  stylesheet: /assets/css/blog.css
+---
+
+<section id="blog" class="container">
+
+  <!-- Banner -->
+  {% include banner.liquid content=site.data.blog.banner %}
+
+  <!-- Posts -->
+  {% include blog/posts.liquid %}
+
+</section>

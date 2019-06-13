@@ -1,11 +1,11 @@
 <div id="credits" class="row">
-  <div class="xsmall-10 medium-6 column">
+  <div class="xsmall-11 medium-7 column">
 
     <h2 class="title">
       {{ include.content.title }}
     </h2>
 
-    {{ include.content.paragraph | markdownify }}
+    {{ include.content.paragraph | markdownify | replace: '<p>', '<p class="paragraph">' }}
 
     <dl class="closing-credits">
       {% for closing_credit in include.content.closing_credits %}
