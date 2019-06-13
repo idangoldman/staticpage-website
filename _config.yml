@@ -11,6 +11,11 @@ baseurl: ""
 host: staticpage.web
 port: 1234
 
+# Collections
+collections:
+  posts:
+    permalink: /blog/:title
+
 # Build settings
 source: ./source
 destination: ./public
