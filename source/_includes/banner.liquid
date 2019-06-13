@@ -1,9 +1,9 @@
 <div id="banner" class="row">
-  <header class="header twelve column">
+  <header class="header eleven column">
     <h1 class="title">
       {{ include.content.title }}
     </h1>
-    <p class="paragraph">{{ include.content.description }}</p>
+    {{ include.content.description | markdownify | replace: '<p>', '<p class="paragraph">' }}
   </header>
 
   {% if include.content.menu %}
