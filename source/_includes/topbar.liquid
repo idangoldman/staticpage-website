@@ -8,13 +8,7 @@
     </div>
 
     <div class="xsmall:text-center medium:text-right medium-6 large-8 column">
-      <nav class="menu">
-        {% for link in include.content.menu %}
-        <a href="{{ link.url }}" class="btn-link">
-          {{ link.text }}
-        </a>
-        {% endfor %}
-      </nav>
+      {% include menu.liquid %}
     </div>
 
   </div>

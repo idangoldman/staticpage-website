@@ -1,0 +1,7 @@
+<nav class="menu">
+  {% for link in site.data.menu %}
+  <a href="{{ link.url }}" class="btn-link">
+    {{ link.text }}
+  </a>
+  {% endfor %}
+</nav>
