@@ -8,7 +8,7 @@ StaticPage has been put aside for too long and now I’m back working on it full
 
 <!--more-->
 
-## Hello, how are you doing?
+Hello, how are you doing?
 
 What a month it has been... I can sum it up by new LOGO, [new website](https://staticpage.io), new feature, new service, and StaticPage is in public beta.
 
@@ -40,5 +40,4 @@ Check out my credentials on [LinkedIn](https://linkedin.com/in/idangoldman) befo
 The link to StaticPage’s new website:
 [https://staticpage.io](https://staticpage.io)
 
-Meanwhile, have fun and enjoy the day! :)
-Idan.
+Meanwhile, have fun and enjoy the day! 🤓 Idan.

@@ -8,7 +8,7 @@ Last month was all about spreading the word, video and fixing some more bugs.
 
 <!--more-->
 
-## Hello, how are you doing?
+Hello, how are you doing?
 
 I’m doing well, thanks for asking! 😊
 Last month was all about spreading the word, video and fixing some more bugs.
@@ -30,5 +30,4 @@ It sucks but Blog, Docs, and Support pages are still under heavy development and
 ## Features are coming!
 I know, I haven’t released any new features this month! Please bear with me while I’m building decent marketing and support channels for StaticPage to grow upon. These channels help me communicate with you better and understand what you need from a product like StaticPage. I already have a couple of features planned that will make your work awesome! 🥳
 
-Meanwhile, have fun and enjoy the day! 🤓
-Idan.
+Meanwhile, have fun and enjoy the day! 🤓 Idan.
