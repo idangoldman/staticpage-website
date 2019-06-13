@@ -1,0 +1,14 @@
+<article class="content">
+
+  <header class="header">
+    <time datetime="{{ page.date }}" class="date">
+      {{ page.date | date: "%b %d, %Y" | upcase }}
+    </time>
+
+    <h1 class="title">
+      {{ page.title }}
+    </h1>
+  </header>
+
+  {{ content | remove: page.excerpt | replace: '<p>', '<p class="paragraph">' }}
+</article>
