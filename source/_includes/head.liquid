@@ -11,6 +11,8 @@
 
   {% if page.stylesheet %}
     <link rel="stylesheet" href="{{ page.stylesheet }}" />
+  {% elsif layout.stylesheet %}
+    <link rel="stylesheet" href="{{ layout.stylesheet }}" />
   {% else %}
     <link rel="stylesheet" href="{{ '/assets/css/default.css' }}" />
   {% endif %}
