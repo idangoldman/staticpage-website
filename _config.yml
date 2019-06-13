@@ -26,7 +26,6 @@ markdown: kramdown
 # SASS
 sass:
   style: compressed
-  sass_dir: _scss
   load_paths:
     - ../node_modules
 
@@ -37,7 +36,6 @@ plugins:
   - jekyll-favicon
   - jekyll-feed
   - jekyll-paginate-v2
-  # - jekyll-picture-tag
   - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-sitemap

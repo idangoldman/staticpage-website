@@ -19,7 +19,6 @@ gem "jekyll", "~> 3.8.5"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  # gem 'jekyll-picture-tag', git: 'https://github.com/robwierzbowski/jekyll-picture-tag/'
   gem "jekyll-analytics", "~> 0.1.11"
   gem "jekyll-default-layout", "~> 0.1.4"
   gem "jekyll-favicon", "~> 0.2.7"
