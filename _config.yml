@@ -6,16 +6,17 @@ author: Idan Goldman.
 email: root@staticpage.io
 logo: /assets/images/logo.svg
 
+# Collections
+collections:
+  posts:
+    permalink: /blog/:title
+    layout: post
+
 # Permalinks
 url: "https://staticpage.io"
 baseurl: ""
 host: staticpage.web
 port: 1234
-
-# Collections
-collections:
-  posts:
-    permalink: /blog/:title
 
 # Build settings
 source: ./source

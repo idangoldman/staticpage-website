@@ -1,8 +1,7 @@
 ---
-layout: default
-title:  "Public Beta is OUT!"
-date:   2019-04-29 18:00:00 +0300
-categories: newsletter
+title: "Public Beta is OUT!"
+date:  2019-04-29 18:00:00 +0300
+tags:  newsletter
 ---
 
 StaticPage has been put aside for too long and now I’m back working on it full-time. This lead to a public beta!

@@ -1,8 +1,7 @@
 ---
-layout: default
-title:  StaticPage Revival
-date:   2019-04-07 18:00:00 +0300
-categories: newsletter
+title: StaticPage Revival
+date:  2019-04-07 18:00:00 +0300
+tags:  newsletter
 ---
 
 **Great News**, StaticPage is in full-time development mode and will be released on May 1st.

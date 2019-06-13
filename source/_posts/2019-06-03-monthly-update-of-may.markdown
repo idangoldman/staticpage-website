@@ -1,8 +1,7 @@
 ---
-layout: default
-title:  Monthly Update of May
-date:   2019-06-03 18:00:00 +0300
-categories: newsletter
+title: Monthly Update of May
+date:  2019-06-03 18:00:00 +0300
+tags:  newsletter
 ---
 
 Last month was all about spreading the word, video and fixing some more bugs.
