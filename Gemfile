@@ -23,10 +23,11 @@ group :jekyll_plugins do
   gem "jekyll-default-layout", "~> 0.1.4"
   gem "jekyll-favicon", "~> 0.2.7"
   gem "jekyll-feed", "~> 0.6"
-  gem "jekyll-paginate-v2", "~> 2.0"
+  gem "jekyll-inline-svg", "~> 1.1"
   gem "jekyll-relative-links", "~> 0.6.0"
   gem "jekyll-seo-tag", "~> 2.6"
   gem "jekyll-sitemap", "~> 1.3"
+  gem "jekyll-tidy", "~> 0.2.2"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -43,5 +44,3 @@ gem "public_suffix", "~> 3.1"
 gem "turbolinks", "~> 5.2"
 
 gem "dotenv", "~> 2.7"
-
-gem "jekyll-inline-svg", "~> 1.1"

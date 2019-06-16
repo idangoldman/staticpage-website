@@ -7,7 +7,7 @@ task "kit:reinstall" do
 end
 
 task "assets:precompile" do
-  exec("JEKYLL_ENV=production bundle exec jekyll build")
+  exec("JEKYLL_ENV=production bundle exec jekyll build --trace")
 end
 
 task "clean" do

@@ -13,17 +13,32 @@ collections:
     layout: post
 
 # Permalinks
-url: "https://staticpage.io"
-baseurl: ""
+url: 'https://staticpage.io'
+baseurl: ''
 host: staticpage.web
 port: 1234
 
 # Build settings
+# theme: minima
 source: ./source
 destination: ./public
-exclude: ['images/favicon']
+exclude:
+  - 'images/favicon'
+  - 'images/illustrations'
 timezone: Asia/Jerusalem
 markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-analytics
+  - jekyll-default-layout
+  - jekyll-favicon
+  - jekyll-feed
+  - jekyll-inline-svg
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-tidy
 
 # SASS
 sass:
@@ -31,25 +46,19 @@ sass:
   load_paths:
     - ../node_modules
 
-# theme: minima
-plugins:
-  - jekyll-analytics
-  - jekyll-default-layout
-  - jekyll-favicon
-  - jekyll-feed
-  - jekyll-paginate-v2
-  - jekyll-relative-links
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-inline-svg
+# HTML Compression
+jekyll_tidy:
+  compress_html: true
 
+# Favicon
 favicon:
   source: assets/images/favicon.png
   path: /images/favicon
   safari-pinned-tab:
-    mask-icon-color: "#2ea52c"
+    mask-icon-color: '#2ea52c'
   ie:
-    tile-color: "#2ea52c"
+    tile-color: '#2ea52c'
 
+# SVG
 svg:
   optimize: true
