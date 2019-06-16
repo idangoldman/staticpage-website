@@ -36,8 +36,8 @@ The service is simple, do you need a landing page or a coming soon page and don�
 
 Check out my credentials on [LinkedIn](https://linkedin.com/in/idangoldman) before hiring me.
 
-**Haven’t guessed it yet?**
-The link to StaticPage’s new website:
+**Haven’t guessed it yet?**<br>
+The link to StaticPage’s new website:<br>
 [https://staticpage.io](https://staticpage.io)
 
 Meanwhile, have fun and enjoy the day!<br>
