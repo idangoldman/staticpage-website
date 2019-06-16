@@ -12,4 +12,20 @@
     </div>
   </div>
 
+  {% if page.comment_url %}
+    <!-- Comment -->
+    <div class="row">
+      <div class="xsmall-11 medium-7 column">
+        {% include post/comment.liquid %}
+      </div>
+    </div>
+  {% endif %}
+
+  <!-- Content -->
+  <div class="row">
+    <div class="post xsmall-11 medium-7 column">
+      {% include post/navigation.liquid %}
+    </div>
+  </div>
+
 </section>

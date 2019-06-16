@@ -2,6 +2,7 @@
 title: "Public Beta is OUT!"
 date:  2019-04-29 18:00:00 +0300
 tags:  newsletter
+comment_url: https://twitter.com/idan_goldman/status/1139334001657880582
 ---
 
 StaticPage has been put aside for too long and now I’m back working on it full-time. This lead to a public beta!
