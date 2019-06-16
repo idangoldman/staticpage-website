@@ -24,4 +24,5 @@ Please let me know what are your thoughts about the new version of **StaticPage*
 
 Follow me on Twitter and get daily updates on the progress of developing StaticPage at [@idan_goldman](https://twitter.com/idan_goldman).
 
-Meanwhile, have fun and enjoy the week! 🤓 Idan.
+Meanwhile, have fun and enjoy the week!<br>
+🤓 Idan.

@@ -10,8 +10,7 @@ Last month was all about spreading the word, video and fixing some more bugs.
 
 Hello, how are you doing?
 
-I’m doing well, thanks for asking! 😊
-Last month was all about spreading the word, video and fixing some more bugs.
+I’m doing well, thanks for asking! 😊 <br>Last month was all about spreading the word, video and fixing some more bugs.
 
 ## “How to Create a Coming Soon Page”
 A promo walkthrough video I have created to give you and others a better look at the last version of StaticPage. Also, it was really fun editing the video! Watch the video at [this link](https://www.youtube.com/watch?v=vEiAj0Zr5xc). 🤩
@@ -30,4 +29,5 @@ It sucks but Blog, Docs, and Support pages are still under heavy development and
 ## Features are coming!
 I know, I haven’t released any new features this month! Please bear with me while I’m building decent marketing and support channels for StaticPage to grow upon. These channels help me communicate with you better and understand what you need from a product like StaticPage. I already have a couple of features planned that will make your work awesome! 🥳
 
-Meanwhile, have fun and enjoy the day! 🤓 Idan.
+Meanwhile, have fun and enjoy the day!<br>
+🤓 Idan.

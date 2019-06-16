@@ -40,4 +40,5 @@ Check out my credentials on [LinkedIn](https://linkedin.com/in/idangoldman) befo
 The link to StaticPage’s new website:
 [https://staticpage.io](https://staticpage.io)
 
-Meanwhile, have fun and enjoy the day! 🤓 Idan.
+Meanwhile, have fun and enjoy the day!<br>
+🤓 Idan.

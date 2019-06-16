@@ -2,6 +2,7 @@
   text-align: left
 
   .header
+    font-family: $header-font-family
     margin-top: 60px
     margin-bottom: 90px
     text-align: center
@@ -17,13 +18,14 @@
     margin-bottom: 20px
 
     & + h2, & + h3, & + h4, & + h5, & + h6
-      font-family: $header-font-family
-      margin: 70px 0 20px
+      margin: 60px 0 20px
 
     a
       border-bottom: 2px solid $secondary-color
       color: $primary-color
+      font-family: $base-font-family
       text-decoration: none
+      text-transform: uppercase
 
       &:hover
         border-bottom-color: $primary-color
