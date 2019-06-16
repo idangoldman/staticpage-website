@@ -23,8 +23,8 @@ port: 1234
 source: ./source
 destination: ./public
 exclude:
-  - 'images/favicon'
-  - 'images/illustrations'
+  - 'assets/images/favicon'
+  - 'assets/images/illustrations'
 timezone: Asia/Jerusalem
 markdown: kramdown
 
@@ -53,7 +53,7 @@ jekyll_tidy:
 # Favicon
 favicon:
   source: assets/images/favicon.png
-  path: /images/favicon
+  path: assets/images/favicon
   safari-pinned-tab:
     mask-icon-color: '#2ea52c'
   ie:
