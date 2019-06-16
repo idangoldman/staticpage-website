@@ -35,6 +35,7 @@ plugins:
   - jekyll-favicon
   - jekyll-feed
   - jekyll-inline-svg
+  - jekyll-last-modified-at
   - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-sitemap
