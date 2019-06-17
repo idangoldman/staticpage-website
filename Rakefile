@@ -1,11 +1,3 @@
-task "install" do
-  exec("bundle install; yarn install")
-end
-
-task "kit:update" do
-  exec("yarn kit:reinstall")
-end
-
 task "build" do
   exec("bundle exec jekyll build --trace")
 end
