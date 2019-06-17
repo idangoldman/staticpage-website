@@ -6,7 +6,10 @@ variables:
   GIT_SUBMODULE_STRATEGY: normal
 
 before_script:
-  - bundle install
+  - rake install
+
+after_script:
+  - rake clear:cache
 
 pages:
   stage: deploy
