@@ -2,7 +2,7 @@
 name: StaticPage
 title: Welcome to StaticPage!
 description: Create your own Coming Soon, Under Maintenance, and 404 pages.
-author: Idan Goldman.
+author: idan_goldman
 email: root@staticpage.io
 logo: /assets/images/logo.svg
 
@@ -23,13 +23,14 @@ port: 1234
 source: ./source
 destination: ./public
 exclude:
-  - 'assets/images/favicon'
-  - 'assets/images/illustrations'
+  - assets/images/favicon
+  - assets/images/illustrations
 timezone: Asia/Jerusalem
 markdown: kramdown
 
 # Plugins
 plugins:
+  - jekyll-default-layout
   - jekyll-favicon
   - jekyll-feed
   - jekyll-inline-svg
@@ -37,6 +38,19 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-tidy
+
+# Social
+twitter:
+  username: idan_goldman
+  author: idan_goldman
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: assets/images/social/facebook.jpg
+
 
 # SASS
 sass:
@@ -46,6 +60,7 @@ sass:
 
 # HTML Compression
 jekyll_tidy:
+  ignore_env: development
   compress_html: true
 
 # Favicon
