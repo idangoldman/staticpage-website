@@ -6,8 +6,8 @@ task "kit:reinstall" do
   exec("yarn kit:reinstall")
 end
 
-task "assets:precompile" do
-  exec("JEKYLL_ENV=production bundle exec jekyll build --trace")
+task "build" do
+  exec("bundle exec jekyll build --trace")
 end
 
 task "clean" do

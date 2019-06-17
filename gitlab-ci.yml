@@ -1,0 +1,18 @@
+image: ruby:2.4
+
+variables:
+  JEKYLL_ENV: production
+  LC_ALL: C.UTF-8
+
+before_script:
+  - rake install
+
+pages:
+  stage: deploy
+  script:
+  - rake build
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
