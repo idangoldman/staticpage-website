@@ -2,7 +2,7 @@ task "install" do
   exec("bundle install; yarn install")
 end
 
-task "kit:reinstall" do
+task "kit:update" do
   exec("yarn kit:reinstall")
 end
 

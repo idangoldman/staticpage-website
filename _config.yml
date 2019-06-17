@@ -45,7 +45,7 @@ plugins:
 sass:
   style: compressed
   load_paths:
-    - ../node_modules
+    - ../kit
 
 # HTML Compression
 jekyll_tidy:
