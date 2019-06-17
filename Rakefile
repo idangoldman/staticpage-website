@@ -1,5 +1,5 @@
 task "install" do
-  exec("bundle install; npm install")
+  exec("bundle install; yarn install")
 end
 
 task "kit:reinstall" do
