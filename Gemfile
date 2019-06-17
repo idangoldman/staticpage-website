@@ -19,12 +19,10 @@ gem "jekyll", "~> 3.8.5"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-analytics", "~> 0.1.11"
-  gem "jekyll-default-layout", "~> 0.1.4"
   gem "jekyll-favicon", "~> 0.2.7"
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-inline-svg", "~> 1.1"
-  gem "jekyll-relative-links", "~> 0.6.0"
+  gem "jekyll-last-modified-at", "~> 1.1"
   gem "jekyll-seo-tag", "~> 2.6"
   gem "jekyll-sitemap", "~> 1.3"
   gem "jekyll-tidy", "~> 0.2.2"
@@ -44,5 +42,3 @@ gem "public_suffix", "~> 3.1"
 gem "turbolinks", "~> 5.2"
 
 gem "dotenv", "~> 2.7"
-
-gem "jekyll-last-modified-at", "~> 1.1"

@@ -30,13 +30,10 @@ markdown: kramdown
 
 # Plugins
 plugins:
-  - jekyll-analytics
-  - jekyll-default-layout
   - jekyll-favicon
   - jekyll-feed
   - jekyll-inline-svg
   - jekyll-last-modified-at
-  - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-tidy
