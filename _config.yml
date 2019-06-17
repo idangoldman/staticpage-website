@@ -9,7 +9,7 @@ logo: /assets/images/logo.svg
 # Collections
 collections:
   posts:
-    permalink: /blog/:title
+    permalink: /blog123/:title
     layout: post
 
 # Permalinks
